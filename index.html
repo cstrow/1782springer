@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GFG</title>
+  <title>List Your House for Sale</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #666;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    .cta-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
-    <h1>1782 Springer Street NW.</h1>
+  <div class="container">
+    <h1>List Your House for Sale</h1>
+    <p>Ready to sell your house in a great location, despite requiring major renovations? List it today and connect with buyers who see the potential of your property.</p>
+    <p>Fill out the form below to get started:</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Your Phone Number" required>
+      <textarea name="message" placeholder="Briefly describe your house, its current condition, and the desirable features of its location" required></textarea>
+      <button type="submit" class="cta-button">Submit Listing</button>
+    </form>
+  </div>
 </body>
 </html>
